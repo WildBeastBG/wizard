@@ -1,0 +1,113 @@
+{
+  "os-windows-cloud": [
+    {
+      "id": 1,
+      "distro": "Windows",
+      "title": "Windows Server 2008 x64 STD R2"
+    },
+    {
+      "id": 2,
+      "distro": "Windows",
+      "title": "Windows Server 2012 x64 DC"
+    },
+    {
+      "id": 3,
+      "distro": "Windows",
+      "title": "Windows Server 2012 x64 STD R2"
+    },
+    {
+      "id": 4,
+      "distro": "Windows",
+      "title": "Windows Server 2016 x64 DC"
+    },
+    {
+      "id": 5,
+      "distro": "Windows",
+      "title": "Windows Server 2016 x64 STD"
+    },
+    {
+      "id": 6,
+      "distro": "Windows",
+      "title": "Windows Server 2019 x64 DC"
+    },
+    {
+      "id": 7,
+      "distro": "Windows",
+      "title": "Windows Server 2019 x64 STD"
+    }
+  ],
+  "os-dedicated-servers": [
+    {
+      "id": 1,
+      "distro": "CentOS",
+      "title": "CentOS 6 x64"
+    },
+    {
+      "id": 2,
+      "distro": "CentOS",
+      "title": "CentOS 6 x64 + Virtualmin"
+    },
+    {
+      "id": 3,
+      "distro": "CentOS",
+      "title": "CentOS 7 x64"
+    },
+    {
+      "id": 4,
+      "distro": "CentOS",
+      "title": "CentOS 7 x64 + Virtualmin"
+    },
+    {
+      "id": 5,
+      "distro": "CentOS",
+      "title": "CentOS 8 x64"
+    },
+    {
+      "id": 6,
+      "distro": "CentOS",
+      "title": "CentOS 8 x64 + Virtualmin"
+    },
+    {
+      "id": 7,
+      "distro": "Debian",
+      "title": "Debian 8 x64"
+    },
+    {
+      "id": 8,
+      "distro": "Debian",
+      "title": "Debian 9 x64"
+    },
+    {
+      "id": 9,
+      "distro": "Debian",
+      "title": "Debian 10 x64"
+    },
+    {
+      "id": 10,
+      "distro": "Ubuntu",
+      "title": "Ubuntu 16.04 x64"
+    },
+    {
+      "id": 11,
+      "distro": "Ubuntu",
+      "title": "Ubuntu 18.04 x64"
+    },
+    {
+      "id": 12,
+      "distro": "Ubuntu",
+      "title": "Ubuntu 20.04 x64"
+    }
+  ],
+  "disk-cloud-vps": [10, 15, 25, 50, 80, 100],
+  "disk-windows-cloud": [10, 15, 25, 50, 80, 100],
+  "disk-dedicated-servers": [
+    {
+      "type": "SSD",
+      "sizes": [256, 500, 1000]
+    },
+    {
+      "type": "HDD",
+      "sizes": [1000, 2000, 4000, 6000, 8000]
+    }
+  ]
+}
